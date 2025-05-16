@@ -1,5 +1,7 @@
 
-import Banner from './component/Banner'
+
+import Banner from './component/banner'
+import Forms from './component/Forms'
 
 function App() {
   
@@ -7,8 +9,8 @@ function App() {
 
     <div>
 
-      <Banner />
-      
+      <Banner/>
+      <Forms/>
 
     </div>
     
