@@ -1,5 +1,5 @@
 
-function Banner() {
+const Banner = () => {
   return (
     
     <header className="text-center bg-[#6278F7]" >
