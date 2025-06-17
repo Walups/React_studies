@@ -1,6 +1,17 @@
+import Dropdown from "./dropdown";
 import Inputs from "./Inputs";
 
 const Forms = () => {
+
+    const times = [
+        'Programação',
+        'Front-End',
+        'Data Science',
+        'Devops',
+        'UX e Design',
+        'Mobile',
+        'Inovação e Gestão'
+    ];
 
     return(
 
@@ -21,7 +32,10 @@ const Forms = () => {
                     placeholder="Digite seu cargo"
                     text="Cargo"
                     value="Cargo do colaborador"
-                />      
+                />
+                <Dropdown itens={times} />
+                    
+                  
             </form>
 
         </div>
